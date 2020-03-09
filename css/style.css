@@ -131,3 +131,18 @@ footer h4{
     color: var(--omelete);
     text-shadow: 1px 1px 2px var(--omelete);
 }
+
+@media(min-width: 426px){
+    .card{
+        display: flex;
+    }
+    .card img{
+        width: 30%;
+     object-fit: cover;
+    }
+    .card div{
+        padding: 2em;
+    }
+}
+
+@media (min-width: 801px )
