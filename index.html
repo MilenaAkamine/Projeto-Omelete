@@ -28,7 +28,13 @@
 
     <main>
         <div class="banner">
-            <img src="img/news/1.jpg" alt="Banner demonstrativo">
+            <picture>
+<source media="(min-width:1201px )" srcset="img/news/1.png">
+    <!-- souce media é para colocar a imagem para diversos tamanhos de tela -->
+<source media="(min-width:801px )" srcset="img/news/1.jpg">
+<source media="(min-width:426px )" srcset="img/news/1.jpg">
+                <img src="img/news/1.jpg" alt="Banner demonstrativo">
+            </picture>
         </div>
 
         <h1>principais destaques</h1>
